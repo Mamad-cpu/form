@@ -1,0 +1,145 @@
+<html>
+
+<head>
+  <title>Formulir Pendaftaran Siswa Baru</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-title">
+      <h1>Formulir Pendaftaran Siswa Baru</h1>
+      <div class="header-title-sub">
+      </div>
+    </div>
+    <div class="header-side">
+      <div class="header-logo">
+        <img src="assets/logo.png" alt="Logo" />
+        <p>SMP Raden Tanjung</p>
+      </div>
+      <div>
+        <p class="address">
+          JI. Cengkareng Tenggara 79, Metro, Lampung 31524
+        </p>
+        <p class="address">
+          T: 0123456789 E: halo@situssupercanggih.co.id
+        </p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <label for="nama">Nama Lengkap : </label>
+    <input type="text" name="nama" id="nama" autocomplete="off">
+    </div>
+    <div>
+      <label for="noInduk">Nomor Induk Asal : </label>
+      <input type="text" name="noInduk" id="noInduk" autocomplete="off">
+    </div>
+    <div>
+      <label for="nisn">NISN : </label>
+      <input type="text" name="nisn" id="nisn" autocomplete="off">
+    </div>
+    <div>
+      <label for="Tanggal">Tempat & Tanggal Lahir :</label>
+      <input type="date" name="Tanggal" id="Tanggal" autocomplete="off">
+    </div>
+    <div>
+      <label for="Radio"> Jenis kelamin :</label>
+      <input type="radio" name="Radio" id="Pria" value="Pria"> Pria
+      <input type="radio" name="Radio" id="Wanita" value="Wanita"> Wanita
+    </div>
+    <div>
+      <label for="agama">Agama : </label>
+      <input type="text" name="agama" id="agama" autocomplete="off">
+    </div>
+    <div>
+      <label for="Radio"> Status Anak dalam keluarga :</label>
+      <input type="radio" name="Radio" id="Anak Kandung" value="Anak Kandung"> Anak Kandung
+      <input type="radio" name="Radio" id="Anak Angkat" value="Anak Angkat"> Anak Angkat
+      <input type="radio" name="Radio" id="Lainnya" value="Lainnya"> Lainnya
+    </div>
+    <div>
+      <label for="alamat">Alamat Siswa : </label>
+      <input type="text" name="alamat" id="alamat" autocomplete="off">
+    </div>
+    <div>
+      <label for="noTel">No Telepon Siswa : </label>
+      <input type="tel" name="noTel" id="noTel" pattern="(\+62|62|0)([0-9][0-9]{6,9}$" autocomplete="off">
+    </div>
+    <div>
+      <label for="sekAsal">Sekolah Asal : </label>
+      <input type="text" name="sekAsal" id="sekAsal">
+    </div>
+    <h2>DATA ORANG TUA KANDUNG</h2>
+    <div>
+      <label for="namaAyah">Nama Lengkap Ayah : </label>
+      <input type="text" name="namaAyah" id="namaAyah">
+    </div>
+    <div>
+      <label for="namaIbu">Nama Lengkap Ibu : </label>
+      <input type="text" name="namaIbu" id="namaIbu">
+    </div>
+    <div>
+      <label for="alamatOrtu">Alamat : </label>
+      <input type="text" name="alamatOrtu" id="alamatOrtu">
+    </div>
+    <div>
+      <label for="noTel">No Telepon : </label>
+      <input type="tel" name="noTel" id="noTel" pattern="(\+62|62|0)([0-9][0-9]{6,9}$">
+    </div>
+    <div>
+      <label for="pekOrtu">Pekerjaan Ayah : </label>
+      <input type="text" name="pekOrtu" id="pekOrtu">
+    </div>
+    <div>
+      <label for="pendOrtu">Pendidikan Terakhir Ayah : </label>
+      <input type="text" name="pendOrtu" id="pendOrtu">
+    </div>
+    <div>
+      <label for="PengOrtu">Penghasilan Ayah/bulan : </label>
+      <input type="text" name="PengOrtu" id="PengOrtu">
+    </div>
+    <div>
+      <label for="pekOrtu">Pekerjaan Ibu : </label>
+      <input type="text" name="pekOrtu" id="pekOrtu">
+    </div>
+    <div>
+      <label for="pendOrtu">Pendidikan Terakhir Ibu : </label>
+      <input type="text" name="pendOrtu" id="pendOrtu">
+    </div>
+    <div>
+      <label for="PengOrtu">Penghasilan Ibu/bulan : </label>
+      <input type="text" name="PengOrtu" id="PengOrtu">
+    </div>
+    <h3>DATA DIRI WALI</h3>
+    <div>
+      <label for="nama">Nama Lengkap : </label>
+      <input type="text" name="nama" id="nama">
+    </div>
+    <div>
+      <label for="alamat">Alamat : </label>
+      <input type="text" name="alamat" id="alamat">
+    </div>
+    <div>
+      <label for="noTel">No Telepon : </label>
+      <input type="tel" name="noTel" id="noTel" pattern="(\+62|62|0)([0-9][0-9]{6,9}$">
+    </div>
+    <div>
+      <label for="pekOrtu">Pekerjaan : </label>
+      <input type="text" name="pekOrtu" id="pekOrtu">
+    </div>
+    <div>
+      <label for="pendOrtu">Pendidikan Terakhir : </label>
+      <input type="text" name="pendOrtu" id="pendOrtu">
+    </div>
+    <div>
+      <label for="PengOrtu">Penghasilan/bulan : </label>
+      <input type="text" name="PengOrtu" id="PengOrtu">
+    </div>
+
+    <div>
+      <button type="submit">Kirim</button>
+    </div>
+    </form>
+</body>
+
+</html>
